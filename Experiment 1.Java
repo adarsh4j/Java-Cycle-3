@@ -6,7 +6,7 @@ interface firstclass
   
   public void myothermethod();
 
-	public void myhero();
+	public void mymark();
 
 }
 
@@ -30,7 +30,7 @@ class demo implements firstclass
 
 	 }
 
-	 public void myhero()
+	 public void mymark()
 
 	 {
 

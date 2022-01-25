@@ -40,7 +40,7 @@ class demo implements firstclass
 
 }
 
-public class Experiment 1
+public class Experiment1
 
 {
 

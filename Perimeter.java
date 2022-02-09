@@ -19,8 +19,8 @@ class Perimeter
 		int r = sc.nextInt();
 
 		Perimeter ab = new Perimeter(r);
-
-		Perimeter ac = new Perimeter(l,b);
+                ab=new Perimeter (l,b);
+		
 
 	}
 

@@ -1,85 +1,65 @@
 import java.util.*;
 
-class Student
+class Student 
 
 {
 
- void Read()
+	public static void main(String args[])
 
- {
+	{
 
-  Scanner sc=new Scanner(System.in);
+		Student obj = new Student();
 
-  Student obj=new Student();
+		obj.read();
 
-  int rollno;
+	}
 
-  String name;
+	void read()
 
-  int marks[]=new int[5];
+	{
 
+		int a[] = new int[10];
+
+		Scanner sc = new Scanner(System.in);
+
+		int i;
+
+		Student s1 = new Student();
+
+		System.out.println("Enter the name: ");
+
+		String name = sc.nextLine();
+
+		System.out.println("Enter the roll no");
+
+		int r = sc.nextInt();
+
+		System.out.println("Enter the mark");        for(i=0;i<5;i++)
+
+		   a[i]=sc.nextInt();
+
+		 s1.display(name,r,a);
+
+	}
+
+	void display(String name,int r,int a[])
+
+	{
+
+		int i;
+
+		System.out.println("Name is "+name);     
   
+  System.out.println("Roll no is "+r);
 
-  System.out.println("Enter the name:");
+		System.out.println("Mark is ");
 
-  name=sc.nextLine();
+		 for(i=0;i<5;i++)
 
-  
+		  System.out.println(a[i]);
 
-  System.out.println("Enter rollno:");
+	}
 
-  rollno=sc.nextInt();
+}				
 
-  
-
-  for(int i=0;i<5;i++)
-
-  {
-
-   System.out.println("Enter marks of Subject"+(i+1));
-
-   marks[i]=sc.nextInt();
-
-  }
-
-  obj.display(name,rollno,marks);
-
- }
-
- 
-
- void display(String name,int rollno,int marks[])
-
- {
-
-  System.out.println("Name is:"+name);
-
-  System.out.println("Rollno is:"+rollno);
-
-  
-
-  for(int i=0;i<5;i++)
-
-  {
-
-   System.out.println("Marks of Sub"+(i+1)+" is "+marks[i]);
-
-  }
-
- }
-
-   
-
- public static void main(String args[])
-
- {
-
-  Student s1=new Student();
-
-  
-
-  s1.Read();
-
- }
-
-}
+		

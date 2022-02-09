@@ -34,7 +34,9 @@ class Student
 
 		int r = sc.nextInt();
 
-		System.out.println("Enter the mark");        for(i=0;i<5;i++)
+		System.out.println("Enter the mark");        
+		
+		for(i=0;i<5;i++)
 
 		   a[i]=sc.nextInt();
 

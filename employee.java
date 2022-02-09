@@ -39,17 +39,17 @@ public static void main(String[] args)
 
     }
 
-    for(int j=0;j<n;j++)
+    for(int i=0;i<n;i++)
 
     {
 
     System.out.println();
 
-    System.out.println("Employee Number : " + e[j].empno);
+    System.out.println("Employee Number : " + e[i].empno);
 
-    System.out.println("Employee name : "+e[j].name);
+    System.out.println("Employee name : "+e[i].name);
 
-    System.out.println("Employee Phone Number : " + e[j].phoneno);
+    System.out.println("Employee Phone Number : " + e[i].phoneno);
 
     }
 

@@ -52,7 +52,7 @@ class Student
 
 		System.out.println("Name is "+name);     
   
-  System.out.println("Roll no is "+r);
+                System.out.println("Roll no is "+r);
 
 		System.out.println("Mark is ");
 
